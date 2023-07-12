@@ -4,9 +4,7 @@ body{
     font-family: 'lato',sans-serif;
     
 }
-nav{
-    display: flex;
-}
+
  /* nav related styles*/
 
 
@@ -31,6 +29,8 @@ nav a{text-decoration: none;
 }  
 nav{align-items: center;
     justify-content: space-between;/*ul and header part sore*/
+    display: flex;
+    margin: 0 200px;
 }
 
 .btn-primary{
@@ -42,4 +42,17 @@ font-size: 20px;
 font-weight: 700;padding : 18px 35px 19px 36px; 
     
 }
+/* header related styles*/
+.header{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+align-items: center;}
+.profile-pic{
+    width: 584px;
+height: 676px;
+}
+ 
 
